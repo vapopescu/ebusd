@@ -27,6 +27,7 @@ app.info
 /src/ebusd/ebusd
 /src/tools/ebusctl
 /src/tools/ebusfeed
+/src/tools/ebuspicloader
 /src/lib/utils/libutils.a
 /src/lib/ebus/libebus.a
 /src/lib/ebus/contrib/test/test_tem
@@ -36,8 +37,12 @@ app.info
 /src/lib/ebus/test/test_filereader
 /src/lib/ebus/contrib/libebuscontrib.a
 /src/lib/ebus/contrib/test/test_contrib
+/src/lib/knx/libknx.a
 /docs/Doxyfile
 /docs/doxyfile.stamp
 /docs/html
 /cmake-build-debug*/
 /.idea/
+/.vscode/
+
+*.[bB][aA][kK]
