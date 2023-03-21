@@ -26,8 +26,6 @@ r2,,boiler_ret_temp,Boiler Return Temperature,,,,6910,,,IGN:1,,,,,,SIN,10,°C,,,
 u,,boiler_ret_temp,Boiler Return Temperature,,,,6910,,,SIN,10,°C,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 r1,,boiler_status,Boiler Status,,,,c04b,,,IGN:1,,,,,,UCH,1=standby;2=heating;3=heating_hot_water;4=water_tank;5=circulating;23=manual_test;24=comfort;31=gas_circuit_deaeration;36=auto_calibration;51=low_water_pressure;52=no_flame,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 u,,boiler_status,Boiler Status,,,,c04b,,,UCH,1=standby;2=heating;3=heating_hot_water;4=water_tank;5=circulating;23=manual_test;24=comfort;31=gas_circuit_deaeration;36=auto_calibration;51=low_water_pressure;52=no_flame,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-#r1,,flame_active,Flame Active,,,,0e11,,,IGN:1,,,,,,BCD,1=on;0=off,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-#u,,flame_active,Flame Active,,,,0e11,,,BCD,1=on;0=off,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 
 ############################################################
 # Thermostat Messages
